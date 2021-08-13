@@ -11,7 +11,7 @@ public class Main {
 		String identifiant = scanner.nextLine();
 		System.out.println("Entrez votre mot de passe : ");
 		String mdp = scanner.nextLine();
-		if (identifiant.equalsIgnoreCase("Geoffrey") && mdp.equals("motdepassedeGeoffrey64")) {
+		if (identifiant.equals("Geoffrey") && mdp.equals("motdepassedeGeoffrey64")) {
 			System.out.println("Connecté");
 
 		} else {
